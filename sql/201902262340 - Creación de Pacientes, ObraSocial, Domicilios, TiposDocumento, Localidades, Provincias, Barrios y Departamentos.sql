@@ -115,7 +115,7 @@ CREATE TABLE [dbo].[Pacientes] (
     [IdObraSocial] int  NOT NULL,
 	[NroAfiliado] varchar(255)  NOT NULL,
 	[Plan] varchar(255)  NOT NULL,
-    [IdFamiliar] int  NOT NULL,
+    [IdFamiliar] int  NULL,
 	[Parentezco] varchar(255)  NOT NULL
 );
 GO
